@@ -28,8 +28,5 @@ jobs:
       - name: Run a multi line script
         run: echo multi line output jobs:
         
-        with:
-          username: ${{ inputs.username }}
-          token: ${{ secrets.token }}
-
+       
 
