@@ -28,9 +28,4 @@ jobs:
       - name: Run a multi line script
         run: echo multi line output 
         
-         with:
-             username: ${{ username }}
-             token: ${{ secrets }}
-        
-       
-
+         
